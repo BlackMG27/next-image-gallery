@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import {Box, Container, Text} from '@chakra-ui/react';
-import { getCuratedPhotos } from '../lib/api';
+import { getCuratedPhotos } from '../../src/lib/api';
 
 export default function Home({data}) {
-  console.log(data);
   return (
     <div>
       <Head>
